@@ -1,0 +1,28 @@
+.imageContainer{
+    background-color: red;
+    flex-grow:0.5;
+}
+
+.rightContainer{
+    background-color: green;
+    flex-grow:1;
+}
+
+body{
+    display:flex;
+    height:100vh;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+span{
+    color:white
+}
