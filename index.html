@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="styles.css";>
-    <link rel="stylesheet" href="normalize.css";>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
     <div class="imageContainer">
-        <p>sdfsdf</p>
+        <img src="./images/parsa-mahmoudi-exMpoLplhw0-unsplash.jpg">
     </div>
     <div class="rightContainer">
-        <div class="message">Join pls :)</div>
+        <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet massa eu lorem maximus feugiat. Sed sodales posuere velit sed scelerisque.</div>
         <div class="formContainer">
             <form>
-                <h3>Let's do this i guess</h3>
-                <div class="row1">
-                    <label>FIRST NAME: <input type="text" name="firstName" placeholder="John"></label>
-                    <label>LAST NAME: <input type="text" name="lastName" placeholder="Doe"></label>
+                <h3>Let's do this!</h3>
+                <div class="formBackground">
+                    <div class="row1">
+                        <div class="labelRow1">
+                            <label for="firtName">FIRST NAME:</label>
+                            <label for="lastName">LAST NAME:</label>
+                        </div>
+                        <div class="inputRow1">
+                            <input type="text" id="firstName" name="firstName" size="6" required>
+                            <input type="text" name="lastName" id="lastName" size="6" required>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="labelRow2">
+                            <label for="mail">EMAIL:</label>
+                            <label>PHONE NUMBER:</label>    
+                        </div>
+                        <div >
+                            <input type="email" id="mail" name="mail" size="6" required>
+                            <input type="number" name="phone" size="6" required>
+                        </div>
+                    </div>
+                    <div class="row3">
+                        <label for="password">PASSWORD:</label>
+                        <input type="password" id="password" name="password" size="6" required>
+                        <label for="confirmPassword">CONFIRM PASSWORD: </label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" size="6" required>
+                    </div>
                 </div>
-                <div class="row2">
-                    <label>EMAIL: <input type="email" name="mail" placeholder="email@email.com"></label>
-                    <label>PHONE NUMBER: <input type="number" name="phone"></label>
-                </div>
-                <div class="row3">
-                    <label>PASSWORD: <input type="password" name="password"></label>
-                    <label>CONFIRM PASSWORD: <input type="password" name="password"></label>
+                <div class="loginContainer">
+                    <button>Create Account</button>
+                    <p>Already have an account? <span>Log in</span></p>
                 </div>
             </form>
         </div>
-        <div class="loginContainer"></div>
-            <button>Create Account</button>
-            <p>Already have an account? <span>Log in</span></p>
-        </div>
+        
     </div>
 </body>
 </html>

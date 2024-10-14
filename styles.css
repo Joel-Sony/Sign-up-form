@@ -1,11 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 .imageContainer{
-    background-color: red;
-    flex-grow:0.5;
+    background-color: #C8ACD6;
+    width:40%;
 }
 
 .rightContainer{
-    background-color: green;
+    background-color: #17153B;
     flex-grow:1;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,32,79,1) 60%, rgba(36,0,255,1) 97%); 
 }
 
 body{
@@ -25,4 +32,43 @@ input::-webkit-inner-spin-button {
 
 span{
     color:white
+}
+
+.message{
+    width:60%;
+}
+
+.loginContainer{
+    margin-left:2rem;
+    margin-top:2rem;
+}
+
+*{
+    font-family: Poppins,monospace;
+    color: #C8ACD6;
+    
+}
+
+label{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+form{
+    margin-top:7rem;
+    >h3{
+        margin-left: 2rem;
+        font-size:1.5rem;
+    }
+}
+
+.formBackground{
+    backdrop-filter: opacity(70%);
+    backdrop-filter: blur(900px);
+    padding-bottom: 1.2rem;
+    width:100%;
+}
+
+.imageContainer>img{
+    width:140%;
 }
