@@ -9,10 +9,10 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 .rightContainer{
-    background-color: #17153B;
+    background-color: #f69d1d;
     flex-grow:1;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,32,79,1) 60%, rgba(36,0,255,1) 97%); 
+    background: rgb(255,161,27);
+   
 }
 
 body{
@@ -36,6 +36,9 @@ span{
 
 .message{
     width:60%;
+    font-weight: 500;
+    margin-top:4rem;
+    margin-left:2rem;
 }
 
 .loginContainer{
@@ -45,30 +48,44 @@ span{
 
 *{
     font-family: Poppins,monospace;
-    color: #C8ACD6;
+    color: black;
     
 }
 
 label{
-    font-weight: 700;
-    font-size: 1.3rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: white;
 }
 
+.formBackground>h3{
+    color: white;
+    font-size: 1.3rem;
+}
 form{
-    margin-top:7rem;
-    >h3{
-        margin-left: 2rem;
-        font-size:1.5rem;
-    }
+    margin-top:2rem;
 }
 
 .formBackground{
-    backdrop-filter: opacity(70%);
-    backdrop-filter: blur(900px);
+    background-color: #200001;
     padding-bottom: 1.2rem;
     width:100%;
+    padding:2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .imageContainer>img{
-    width:140%;
+    height:100%;
+}
+
+.row1,.row2,.row3{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem;
+}
+
+.firstNameBox,.lastNameBox,.emailBox,.phoneBox,.passwordBox,.confirmBox{
+    display: flex;
+    flex-direction: column;
 }
