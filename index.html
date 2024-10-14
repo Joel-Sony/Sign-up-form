@@ -12,7 +12,9 @@
         <img src="./images/nature-minimalist-style-06.jpg">
     </div>
     <div class="rightContainer">
-        <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet massa eu lorem maximus feugiat. Sed sodales posuere velit sed scelerisque.</div>
+        <div class="messageBox">
+            <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet massa eu lorem maximus feugiat. Sed sodales posuere velit sed scelerisque.</div>
+        </div>
         <div class="formContainer">
             <form>
                 <div class="formBackground">
@@ -20,42 +22,48 @@
                     <div class="row1">
                         <div class="firstNameBox">
                             <label for="firtName">FIRST NAME</label>
-                            <input type="text" id="firstName" name="firstName" size="10" required>   
+                            <input type="text" id="firstName" name="firstName" size="10" required>
+                            <p class="error"></p> 
                         </div>
                         <div class="lastNameBox">
                             <label for="lastName">LAST NAME</label>
                             <input type="text" name="lastName" id="lastName" size="10" required>
+                            <p class="error"></p>
                         </div>
                     </div>
                     <div class="row2">
                         <div class="emailBox">
                             <label for="mail">EMAIL</label>
                             <input type="email" id="mail" name="mail" size="10" required>
-                              
+                            <p class=error></p>  
                         </div>
                         <div class="phoneBox">
                             <label>PHONE NUMBER</label>  
                             <input type="number" name="phone" size="10" required>
+                            <p class=error></p>  
                         </div>
                     </div>
                     <div class="row3">
                         <div class="passwordBox">
                             <label for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" size="10" required>
+                            <p class=error></p>  
                         </div>
                         <div class="confirmBox">
                             <label for="confirmPassword">CONFIRM PASSWORD </label>
                             <input type="password" id="confirmPassword" name="confirmPassword" size="10" required>
+                            <p class=error></p>  
                         </div>
                     </div>
                 </div>
                 <div class="loginContainer">
                     <button>Create Account</button>
-                    <p>Already have an account? <span>Log in</span></p>
+                    <p>Already have an account? <a href="https://www.youtube.com/watch?v=At8v_Yc044Y">Log in</a></p>
                 </div>
             </form>
         </div>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
